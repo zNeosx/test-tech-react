@@ -8,7 +8,7 @@ The test goes further by offering different routes like their profile pages that
 
 The project includes other features such as the ability to publish a post on a user's profile.
 
-This test was proposed by Arnaud Desportes. [https://jsonplaceholder.typicode.com](https://arnaud-desportes.fr/)
+This test was proposed by Arnaud Desportes. [https://arnaud-desportes.fr/](arnaud-desportes)
 
 ## Getting Started
 
