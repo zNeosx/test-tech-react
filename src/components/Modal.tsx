@@ -16,7 +16,6 @@ interface Props {
   onClick: () => void;
   textTrigger: string;
   data: IPost;
-  className?: string;
   triggerClassName?: string;
 }
 const Modal = ({
@@ -24,7 +23,6 @@ const Modal = ({
   onClick,
   textTrigger,
   data,
-  className,
   triggerClassName,
 }: Props) => {
   const [comments, setComments] = useState([]);
@@ -42,7 +40,7 @@ const Modal = ({
   }, [data]);
 
   return (
-    <Dialog className={className}>
+    <Dialog>
       <DialogTrigger onClick={onClick} className={triggerClassName}>
         {textTrigger}
       </DialogTrigger>
