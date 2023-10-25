@@ -1,4 +1,4 @@
-import { IUsers } from "@/types/users";
+import { IUser } from "@/types/users";
 import {
   Table,
   TableCaption,
@@ -8,12 +8,12 @@ import {
   TableBody,
   TableCell,
 } from "./ui/table";
-import { BookOpen, Globe, Phone, UserCircle2 } from "lucide-react";
+import { BookOpen,  Phone, UserCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 import { buttonVariants } from "./ui/button";
 
-const UsersTable = ({ users }: { users: IUsers[] }) => {
+const UsersTable = ({ users }: { users: IUser[] }) => {
   return (
     <Table className="my-8">
       <TableCaption>List of Users</TableCaption>
